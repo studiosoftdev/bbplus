@@ -8,13 +8,15 @@ y Added [+ X Y Z] function. Performs X = Y + Z. Y and Z can be numbers or variab
 
 y Added [- X Y Z] function. Performs X = Y - Z. Y and Z can be numbers or variables.
 
-n Added [* X Y Z] function. Performs X = Y * Z. Y and Z can be numbers or variables.
+y Added [* X Y Z] function. Performs X = Y * Z. Y and Z can be numbers or variables.
 
-n Added [/ X Y Z] function. Performs X = Y / Z. Y and Z can be numbers or variables. Integer division only (currently).
+y Added [/ X Y Z] function. Performs X = Y / Z. Y and Z can be numbers or variables. Integer division only (currently).
 
-n Added [set X Y] function. Performs X = Y. Initialises X if necessary. Y can be number or variable
+y Added [set X Y] function. Performs X = Y. Initialises X if necessary. Y can be number or variable
 
-n Modified [while X not 0 do] to [while X not Y do]. Y can be number or variable.
+y Modified [while X not 0 do] to [while X not Y do]. Y can be number or variable.
+
+y Added ability to insert one empty line between non-empty lines
 
 n Added [fn name]. Subroutines, no arguments.
 
