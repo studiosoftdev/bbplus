@@ -16,7 +16,7 @@ y Added [set X Y] function. Performs X = Y. Initialises X if necessary. Y can be
 
 y Modified [while X not 0 do] to [while X not Y do]. Y can be number or variable.
 
-y Added ability to insert one empty line between non-empty lines
+y Added ability to insert empty lines
 
 n Added [fn name]. Subroutines, no arguments.
 
