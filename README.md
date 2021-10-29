@@ -18,9 +18,9 @@ y Modified [while X not 0 do] to [while X not Y do]. Y can be number or variable
 
 y Added ability to insert empty lines
 
-n Added [fn name]. Subroutines, no arguments.
+y Added [fn name]. Subroutines, no arguments.
 
-n Added [endfn]. Denotes end of subroutine.
+y Added [endfn]. Denotes end of subroutine.
 
 n Added [if X == Y]. Executes code iff X == Y where Y is a number or variable.
 
