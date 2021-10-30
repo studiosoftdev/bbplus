@@ -22,6 +22,12 @@ y Added [fn name]. Subroutines, no arguments.
 
 y Added [endfn]. Denotes end of subroutine.
 
+y Added [set]. Sets the variable to value or other variable.
+
+y Added [out]. Prints the variables value on a new line.
+
+y Added [outc]. Prints the character of the variables value, not new line.
+
 n Added [if X == Y]. Executes code iff X == Y where Y is a number or variable.
 
 n Added [else]. Executes if the if statement fails.
