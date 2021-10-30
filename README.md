@@ -28,6 +28,8 @@ y Added [out]. Prints the variables value on a new line.
 
 y Added [outc]. Prints the character of the variables value, not new line.
 
+y Added array structure... sorta. You can use the whole variable list as an array and index it with any variable.
+
 n Added [if X == Y]. Executes code iff X == Y where Y is a number or variable.
 
 n Added [else]. Executes if the if statement fails.
