@@ -23,6 +23,7 @@ Changes:
 - Added [endif]. Denotes end of if statement.
 - Added [goto]. Skips to line given by number, variable, or variable array reference.
 - Added [skip]. Skips to next line. Can be useful in some contexts, notably used with a goto to skip to the end of file.
+- Retains full compatibility with original language.
 
 
 Program commentary:
