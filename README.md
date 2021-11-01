@@ -28,6 +28,7 @@ Changes:
 
 
 Program commentary:
+
 Wow this one took a lot longer than I thought it would. Just finishing this now on Monday 13.27. A lot of that was because I spent wayyy too long trying to fit an else structure into this, and that just got really hairy and I ran out of time to deal with it. I realised that you can make an equivalent if statement so there's no harm in foregoing it.
 A lot of these additions were based on the wiki, but a fair number of these came from my own wants and needs in making test programs, and, later, the lab1 programs.
 It's no longer dinky, moving from 69 lines of sparsely commented jank to 271 lines of sparsely commented jank, but I think the return of a decently featured programming language is worthwhile.
