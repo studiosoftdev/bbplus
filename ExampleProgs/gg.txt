@@ -14,7 +14,7 @@ data low;						PI: 19,		PL: 3
 data correct!;					PI: 22, 	PL: 8
 data Guess between 1 and 10!;	PI: 30, 	PL: 23
 data lives left!;				PI: 53,		PL: 11
-data You failed.;				PI: 64,		PL: 10
+data You failed.;				PI: 64,		PL: 11
 
 set PrintIter 30;
 set PrintLen 23;
@@ -74,7 +74,7 @@ while lives > 0 do;
 end;
 
 set PrintIter 64;		prints you failed
-set PrintLen 10;
+set PrintLen 11;
 print;
 
 goto 70;				skip over the "correct!" printing
