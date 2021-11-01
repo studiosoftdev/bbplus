@@ -1,7 +1,7 @@
 ; FizzBuzz from lab1part3
 ; takes user input for max range
 
-data input max num: ;		PI = 0, 	PL = 15
+data input max num: ;		      PI = 0, 	PL = 15
 data Fizz;					   PI = 15,	PL = 4
 data Buzz;					   PI = 19,	PL = 4
 
