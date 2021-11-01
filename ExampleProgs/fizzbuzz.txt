@@ -1,0 +1,59 @@
+; FizzBuzz from lab1part3
+; takes user input for max range
+
+data input max num: ;		PI = 0, 	PL = 15
+data Fizz;					PI = 15,	PL = 4
+data Buzz;					PI = 19,	PL = 4
+
+fn print;
+   + PrintLen PrintLen PrintIter;
+   while PrintIter not PrintLen do;
+      outc VARS[PrintIter];
+      incr PrintIter;
+   end;
+endf;
+
+set PrintIter 0;
+set PrintLen 15;
+print;
+set n 0;
+in n;
+incr n;
+set i 1;
+
+while i < n do;
+  set i3 0;
+  % i3 i 3;
+  set i5 0;
+  % i5 i 5;
+
+  if i3 == 0 do;
+    if i5 == 0 do;
+      set PrintIter 15;
+      set PrintLen 8;
+      print;
+      goto 42;				skips the next if statements so we dont print it again
+    endif;
+  endif;
+
+  if i3 == 0 do;
+    set PrintIter 15;
+    set PrintLen 4;
+    print;
+  endif;
+
+  if i5 == 0 do;
+    set PrintIter 19;
+    set PrintLen 4;
+    print;
+  endif;
+
+  if i3 != 0 do;
+    if i5 != 0 do;
+      out i;
+    endif;
+  endif;
+
+  incr i;
+  outc 32;
+end;

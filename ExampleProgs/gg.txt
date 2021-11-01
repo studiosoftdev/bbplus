@@ -1,0 +1,86 @@
+; guessing game, from lab1part2
+
+fn print;
+   + PrintLen PrintLen PrintIter;
+   while PrintIter not PrintLen do;
+      outc VARS[PrintIter];
+      incr PrintIter;
+   end;
+endf;
+
+data input num: ;				PI: 0, 		PL: 11
+data too high;					PI: 11, 	PL: 8
+data low;						PI: 19,		PL: 3
+data correct!;					PI: 22, 	PL: 8
+data Guess between 1 and 10!;	PI: 30, 	PL: 23
+data lives left!;				PI: 53,		PL: 11
+data You failed.;				PI: 64,		PL: 10
+
+set PrintIter 30;
+set PrintLen 23;
+print;
+outc 10;
+
+set PrintIter 0;
+set PrintLen 11;
+print;
+
+set guess 0;
+in guess;
+
+set num 0;
+rand num 1 10;
+
+set lives 3;
+
+while lives > 0 do;
+  if guess > num do;
+    set PrintIter 11;
+    set PrintLen 8;
+    print;
+    outc 10;
+  endif;
+
+  if guess < num do;
+    set PrintIter 11;
+    set PrintLen 4;
+    print;
+    set PrintIter 19;
+    set PrintLen 3;
+    print;
+    outc 10;
+  endif;
+
+  if guess == num do;
+    set PrintIter 22;
+    set PrintLen 8;
+    print;
+    outc 10;
+    goto 67;
+  endif;
+
+  decr lives;
+  out lives;
+  outc 32;
+  set PrintIter 53; 	prints lives left
+  set PrintLen 11;
+
+  print;
+  outc 10;
+  set PrintIter 0;		prints guess num
+  set PrintLen 11;
+  print;
+  in guess;
+end;
+
+set PrintIter 64;		prints you failed
+set PrintLen 10;
+print;
+
+goto 70;				skip over the "correct!" printing
+
+set PrintIter 22;		prints correct
+set PrintLen 8;
+print;
+
+skip;

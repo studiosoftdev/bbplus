@@ -1,0 +1,25 @@
+fn print;
+   + PrintLen PrintLen PrintIter;
+   while PrintIter not PrintLen do;
+      outc VARS[PrintIter];
+      incr PrintIter;
+   end;
+endf;
+
+data input num;			s: 0, l: 9		} noting what PrintIter and PrintLen should be to print this
+data your num is ;		s: 9, l: 12		} same as above
+
+set PrintIter 0;
+set PrintLen 9;
+
+print;
+outc 10;
+
+clear X;
+in X;
+
+set PrintIter 9;
+set PrintLen 12;
+
+print;
+out X;

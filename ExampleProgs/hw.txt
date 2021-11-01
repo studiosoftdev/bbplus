@@ -1,0 +1,31 @@
+fn print;
+   + PrintLen PrintLen PrintIter;		end point is PrintIter + PrintLen
+   while PrintIter not PrintLen do;		requires PrintIter and PrintLen to be instantiated outside the function
+      outc VARS[PrintIter];				PrintIter = string start point, PrintLen = length
+      incr PrintIter;					   as a consequence, these are special variables hence the specific names
+   end;
+endf;
+
+fn println;
+   set NewLineChar 10;			   		can introduce NewLineChar just in this function so its independent of prior code
+   print;							        	except for PrintIter and PrintLen naturally as they are user defined
+   outc NewLineChar;
+endf;
+
+data hello ;
+data world;
+data :);
+
+set PrintIter 0;
+set PrintLen 6;
+
+print;
+
+set PrintIter 6;
+set PrintLen 5;
+
+println;
+
+set PrintIter 11;
+set PrintLen 2;
+print;
