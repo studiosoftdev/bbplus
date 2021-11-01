@@ -47,7 +47,7 @@ public class bbplus {
 		String[] vstack = new String[64]; //stack for last vars for while loops
 		int[] cstack = new int[64]; //condition stack, holds the conditions for each while loop
 		int[] fstack = new int[64]; //stack for function returns... its kinda ridiculous how many stacks we have at this point but my efforts to combine them proved futile
-		int[] ifstack = new int[64]; //sorry for the 4th stack but we need to keep track of these all separately as they may be on different levels at any point. Holds the lines to jump to if condition doesnt hold
+		int[] ifstack = new int[64]; //sorry for the 5th stack but we need to keep track of these all separately as they may be on different levels at any point. Holds the lines to jump to if condition doesnt hold
 		int nstr = 0; //number of strings, cumulative count
 
 		System.out.println("Input file name (must be in same directory as program, *.txt): ");
