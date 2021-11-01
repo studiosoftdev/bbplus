@@ -20,7 +20,7 @@ Changes:
 - Added [outc]. Prints the character of the variables value, not new line.
 - Added array structure... sorta. You can use the whole variable list as an array and index it with any variable. Can be referenced with any instruction: VARS[X] to use, X being any number or variable.
 - Added [data]. This will take the operand and store each character as integers in the array list sequentially with their own naming structure.
-- Added [if X == Y]. Executes code iff X == Y where Y is a number or variable.
+- Added [if X cond Y]. Executes code iff X cond Y where Y is a number or variable and cond is either ==, !=, >, or <.
 - Added [endif]. Denotes end of if statement.
 - Added [goto]. Skips to line given by number, variable, or variable array reference.
 - Added [skip]. Skips to next line. Can be useful in some contexts, notably used with a goto to skip to the end of file.
