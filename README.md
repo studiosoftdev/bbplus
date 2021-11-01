@@ -15,7 +15,7 @@ Changes:
 - Added [fn name]. Subroutines, no arguments.
 - Added [endfn]. Denotes end of subroutine.
 - Added [set]. Sets the variable to value or other variable.
-- Added [out]. Prints the variables value on a new line.
+- Added [out]. Prints the variables value, not on a new line.
 - Added [outc]. Prints the character of the variables value, not new line.
 - Added array structure... sorta. You can use the whole variable list as an array and index it with any variable. Can be referenced with any instruction.
 - Added [data]. This will take the operand and store each character as integers in the array list sequentially with their own naming structure.
