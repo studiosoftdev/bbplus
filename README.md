@@ -8,6 +8,7 @@ Changes:
 - Added [- X Y Z] function. Performs X = Y - Z. Y and Z can be numbers or variables.
 - Added [* X Y Z] function. Performs X = Y * Z. Y and Z can be numbers or variables.
 - Added [/ X Y Z] function. Performs X = Y / Z. Y and Z can be numbers or variables. Integer division only.
+- Added [% X Y Z] function. Performs X = Y % Z. Y and Z can be numbers or variables.
 - Added [set X Y] function. Performs X = Y. Initialises X if necessary. Y can be number or variable
 - Modified [while X not 0 do] to [while X not Y do]. Y can be number or variable.
 - Added While loop conditions: ==, >, <, in conjunction with not (!=).
